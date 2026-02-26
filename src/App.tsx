@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from 'react';
+import { useState, useRef, useEffect } from 'react';
 import { useTripStore } from './store/useTripStore';
 import { calculateSettlements } from './utils/settlement';
 import { toPng } from 'html-to-image';
